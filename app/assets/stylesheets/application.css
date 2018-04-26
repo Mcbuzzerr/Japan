@@ -67,7 +67,11 @@
  	background-color: white;
  	margin: 0px;
  }
-
+img {
+	width: 90%; 
+	margin-left: 15px;
+	margin-top: 5px;
+}
 .start {
     height: -webkit-fill-available;
     background-image: url("https://i.imgur.com/fDJqG1I.jpg");
@@ -82,6 +86,9 @@
     height: 50%;
 }
 .margin {
+	margin-top: 55px;
+}
+.homemargin {
 	margin-top: 50px;
 }
 a:hover {
@@ -125,3 +132,27 @@ h4 {
 	    border-radius: 5px;
 	}
 /* CARD end*/
+div.naisu {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 25px;
+	margin: 5px auto 0px auto;
+	width: 80%;
+	height: min-content;
+
+}
+.naisu {
+	font-family: 'Black Han Sans', sans-serif;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: small;
+	margin-bottom: 5px;
+}
+h1.naisu {
+	font-size: 30px;
+}
+img.naisu {
+	margin: 0px;
+}
